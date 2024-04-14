@@ -9,38 +9,31 @@ EuroSAT dataset is based on Sentinel-2 satellite imagery covering 13 spectral b
 ### Models Trained
 
 1. **Baseline CNN Model**
-
    - **Architecture:** Convolutional Neural Network with 1 Max Pooling layer and 1 Dense layer.
    - **Test Accuracy:** 73.4%
 
 2. **Simple CNN Model**
-
    - **Architecture:** Convolutional Neural Network with 1 Max Pooling layer and 2 Dense layers.
    - **Regularization:** Model 1: L1 Regularization, Model 2: L2 Regularization + Dropout.
    - **Test Accuracy:** Model 1: 26.5%, Model 2: 71%
 
 3. **Deep CNN Model**
-
    - **Architecture:** Convolutional Neural Network with 3 Max Pooling layers and 3 Dense layers with Dropout.
    - **Test Accuracy:** 81%
 
 4. **Transfer Learning: VGG19**
-
    - **Architecture:** Transfer Learning using VGG19 pre-trained model with 2 Dense layers and Dropout.
    - **Test Accuracy:** 80.6%
 
 5. **Transfer Learning: VGG16**
-
    - **Architecture:** Transfer Learning using VGG16 pre-trained model with 2 Dense layers and Dropout.
    - **Test Accuracy:** 89.4%
 
 6. **Final Model**
-
    - **Architecture:** Transfer Learning using VGG16 pre-trained model with Fine Tuning and 3 Dense layers with Dropout.
    - **Test Accuracy:** 91.1%
 
 #### Conclusion
-
 The project experimented with various deep learning architectures and techniques, including baseline models, regularization, transfer learning using VGG19 and VGG16, and fine-tuning. The final model achieved the highest test accuracy of 91.1%, indicating its effectiveness in classifying geospatial terrain images.
 
 
