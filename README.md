@@ -32,7 +32,7 @@ The aim of the project is to  develop a geospatial terrain identification model
    - **Test Accuracy:** 91.1%
 
 #### Conclusion
-The project experimented with various deep learning architectures and techniques, including baseline models, regularization, transfer learning using VGG19 and VGG16, and fine-tuning. The final model achieved the highest test accuracy of 91.1%, indicating its effectiveness in classifying geospatial terrain images.
+The project experimented with various deep learning architectures and techniques, including dropouts, regularization, transfer learning using VGG19 and VGG16, and fine-tuning. The final model achieved the highest test accuracy of 91.1%, indicating its effectiveness in classifying geospatial terrain images.
 
 ## References
 [1] Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. Patrick Helber, Benjamin Bischke, Andreas Dengel, Damian Borth. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2019.
